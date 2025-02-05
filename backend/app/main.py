@@ -14,7 +14,7 @@ from pinecone import Pinecone
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
-
+# Text test
 ### Constants 
 PINECONE_NAME_SPACE="searchV2"
 # Chunking hyperparameters 
