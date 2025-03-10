@@ -7,4 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: whoami
-      - run: echo Haldo
+      - run: echo "Haldo Werld"
+      - run: pwd
+      - run: ls
