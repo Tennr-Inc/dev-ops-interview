@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is writing a new action
 on: [push]
 jobs:
   check-bats-version:
-    runs-on: 
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - run: whoami
