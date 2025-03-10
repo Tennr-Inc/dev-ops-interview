@@ -6,7 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: whoami
-      - run: echo "Haldo Werld"
-      - run: pwd
-      - run: ls
+      - uses: actions/setup-python@v5
+      - run: which pylint
