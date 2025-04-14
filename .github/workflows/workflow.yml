@@ -11,6 +11,6 @@ jobs:
         with:
           node-version: '18'
       - run: npm install
-        working-directory: /frontend
+        working-directory: frontend
       - run: npm run build 
-        working-directory: /frontend
+        working-directory: frontend
